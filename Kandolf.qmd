@@ -5,14 +5,8 @@ author: "Peter Kandolf"
 date: 11.19.2026
 format:
     revealjs:
-      #logo: MCI-positive_Print.png
+      logo: engineering-kiosk-logo.svg
       footer: "Peter Kandolf"
-      #title-slide-attributes: 
-      #  data-background-image: Background.png
-      #  data-background-size: contain
-      #  data-background-opacity: "1.00"
-      #header-logo: ff25.png
-      #hide-from-titleSlide: "logo"
       theme: [slides.scss]
       #width: 1600
       #height: 900
