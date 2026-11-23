@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "Kandolf.html#the-main-idea-of-quarto",
+    "href": "Kandolf.html#the-main-idea-of-quarto",
+    "title": "Quarto for Lecture Material",
+    "section": "The main idea of Quarto?",
+    "text": "The main idea of Quarto?\n\nWrite plain text markdown or Jupyter notebooks.\nCreate dynamic content with Python, R, Julia, and more.\nPublish reproducible, production quality articles, books, presentations, websites, in HTML, PDF, MSWord, and more.\nWrite using Pandoc markdown, including equations, citations, cross-references, figures, callouts and more.\n(Bonus) Create releases with a DOI as online resource."
+  },
+  {
+    "objectID": "Kandolf.html#quarto-in-action-writing-content",
+    "href": "Kandolf.html#quarto-in-action-writing-content",
+    "title": "Quarto for Lecture Material",
+    "section": "Quarto in action… writing content",
+    "text": "Quarto in action… writing content\n\n\n\nFormatting with markdown\n\\(\\LaTeX{}: \\quad a^2 + b^2 = 42\\)\n\n\n\n\n\n\nTip\n\n\nSomething important\n\n\n\nCode with output\n\nimport numpy as np\na = np.random.rand(1)\na\n\narray([0.35904804])\n\n\nand use it again later 0.36\n\n\n\n- Formatting with **markdown**\n- $\\LaTeX{} \\quad a^2 + b^2 = 42$\n- ::::: {.callout-tip}\n  Something important\n  :::::\n- Code with output\n  ```{python}\n  #| echo: true\n  import numpy as np\n  a = np.random.rand(1)\n  a\n  ```\n- and use it again later \n  `{python} float(np.round(a,2))`"
+  },
+  {
+    "objectID": "Kandolf.html#quarto-in-action-lecture-notes-for",
+    "href": "Kandolf.html#quarto-in-action-lecture-notes-for",
+    "title": "Quarto for Lecture Material",
+    "section": "Quarto in action… lecture notes for",
+    "text": "Quarto in action… lecture notes for\nBasics of Data Science and ML in Industrial Image Processing\n\n\nA book class, i.e. multiple chapters/sections with consistent theme, style, and cross-references with bibliography.\nHeavy use of mathematics, i.e. \\(\\LaTeX\\) for formulas, definitions, equations, examples, exercises, etc..\nHeavy use of code, i.e. dynamic content; students can copy the code and get the same result.\nUse callout to draw attention to important parts or collapse to hide solutions.\nHosted as static HTML on GitHub Pages."
+  },
+  {
+    "objectID": "Kandolf.html#quarto-in-action-workflow-13",
+    "href": "Kandolf.html#quarto-in-action-workflow-13",
+    "title": "Quarto for Lecture Material",
+    "section": "Quarto in action… workflow 1/3",
+    "text": "Quarto in action… workflow 1/3\nChange content with a preview feature in your favourite editor (VS Code extension)"
+  },
+  {
+    "objectID": "Kandolf.html#quarto-in-action-workflow-23",
+    "href": "Kandolf.html#quarto-in-action-workflow-23",
+    "title": "Quarto for Lecture Material",
+    "section": "Quarto in action… workflow 2/3",
+    "text": "Quarto in action… workflow 2/3\nRender and publish via GitHub Actions"
+  },
+  {
+    "objectID": "Kandolf.html#quarto-in-action-workflow-33",
+    "href": "Kandolf.html#quarto-in-action-workflow-33",
+    "title": "Quarto for Lecture Material",
+    "section": "Quarto in action… workflow 3/3",
+    "text": "Quarto in action… workflow 3/3\nWhen you are happy with a version, create a release. We use zenodo to publish with a DOI in the spirit of Open Science."
+  },
+  {
+    "objectID": "Kandolf.html#extensions-makes-it-event-greater",
+    "href": "Kandolf.html#extensions-makes-it-event-greater",
+    "title": "Quarto for Lecture Material",
+    "section": "Extensions makes it event greater",
+    "text": "Extensions makes it event greater\n\n\n    \n      \n        ✔\n      \n\n\nSort the code from left to right into a working C function printing even numbers from 1 to 20.\n\n\n      \n        \n        \n          \n        \n        \n\n        \n        \n          \n        \n        \n      \n      \n\n      \n        \n          \n          Attempts needed: 0\n        \n\n        ✓ Check\n\n        \n          \n            В коде есть ошибка."
+  },
+  {
+    "objectID": "Kandolf.html#quarto-is-great-for",
+    "href": "Kandolf.html#quarto-is-great-for",
+    "title": "Quarto for Lecture Material",
+    "section": "Quarto is great for…",
+    "text": "Quarto is great for…\n\n\nCombining syntax highlighted code, results, narratives, formulas, inline results, and references in one place.\nReproducibility and easy Pipelines for automatic updates.\nRendering to multiple formats: HTML, PDF, MSWord, etc.\nMulti-page formats like books or docs with cross references.\nMore fine grained layout and control of Jupyter notebooks.\nBetter source control than Jupyter."
+  },
+  {
+    "objectID": "Kandolf.html#quarto-is-not-great-for",
+    "href": "Kandolf.html#quarto-is-not-great-for",
+    "title": "Quarto for Lecture Material",
+    "section": "Quarto is NOT great for…",
+    "text": "Quarto is NOT great for…\n\n\nFully interactive and dynamic web-pages/apps.\n\n\n\n\nWYSIWYG (the preview is amazing though)\n\n\n\n\nPrecise print formatting (\\(\\LaTeX\\)).\n\n\n\n\nCustom web development.\n\n\n\n\nIf you code/programming language is not supported natively (there are workarounds)."
+  },
+  {
+    "objectID": "Kandolf.html#thanks",
+    "href": "Kandolf.html#thanks",
+    "title": "Quarto for Lecture Material",
+    "section": "Thanks",
+    "text": "Thanks\n\n\n\nQuarto: https://quarto.org/\nzenodo: https://zenodo.org/\nGitHub Pages: https://pages.github.com/\nLecture 1: https://kandolfp.github.io/MECH-M-DUAL-1-DBM/\nLecture 2: https://kandolfp.github.io/MECH-M-DUAL-2-MLB/\n\n\n\n\n\nLecture 1\n\n\n\n\n\nLecture 2"
+  }
+]
