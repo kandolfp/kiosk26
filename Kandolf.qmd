@@ -8,11 +8,6 @@ format:
       logo: engineering-kiosk-logo.svg
       footer: "Peter Kandolf"
       theme: [slides.scss]
-      #width: 1600
-      #height: 900
-    #pptx:
-    #    reference-doc: Powerpoint_Vorlage_FFH25.pptx
-    #    incremental: true
 filters: 
   - shortiquiz
   #- reveal-header
@@ -92,15 +87,6 @@ filters:
 ## {background-iframe="https://kandolfp.github.io/MECH-M-DUAL-1-DBM/basics/sets.html#visualization" background-interactive="true"}
 
 ## {background-iframe="https://kandolfp.github.io/MECH-M-DUAL-2-MLB/nn/nn.html#fig-nn-nn-dvc-non-linear" background-interactive="true"}
-
-<!--
-## `Quarto` in action... workflow
-
-- Change content with a preview feature in your favourite editor (VS Code extension)
-- Push to GitHub and start [`GitHub Actions`](https://github.com/features/actions)
-  - Render to various outputs
-  - Publish the new version
--->
 
 ## `Quarto` in action... workflow 1/3
 
@@ -194,33 +180,3 @@ int main() {
 ![Lecture 2](./qr_lecture2.png){width="56%"}
 ::::
 :::
-
-<!--
-## `Quarto` in action... similar slides to pdf
-
-```qmd
----
-title: "`Quarto` for Lecture Material"
-author: "Peter Kandolf"
-date: 05.08.2025
-format:
-    pptx:
-        reference-doc: Powerpoint_Vorlage_FFH25.pptx
-        incremental: true
----
-
-## What is this talk about?
-
-Showcasing a modern open-source scientific and technical publishing system on _lecture notes_ with dynamic `Python` content.
-
-::: {.incremental}
-- Creation of lecture notes with `Quarto`
-    - What is the main idea of `Quarto`?
-    - When does it make sense to use `Quarto`
-- `Quarto` in action - full workflow for a lecture
-    - We start from a commit in `git`
-    - Automatically build on _GitHub Pages_ for a static HTML
-    - Create a new _release_  with a _DOI_ and output in multiple formats
-:::
-```
--->
